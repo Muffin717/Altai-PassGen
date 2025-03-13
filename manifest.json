@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Altai PassGen",
+  "version": "1.0",
+  "description": "Generate strong passwords between 10 and 50 characters.",
+  "icons": {
+    "48": "icon.svg"
+  },
+  "permissions": ["clipboardWrite"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.svg"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altai PassGen</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title-bar">
+            <img src="icon.svg" alt="Altai PassGen Icon" class="logo">
+            <h1>Altai PassGen</h1>
+        </div>
+
+        <div class="slider-container">
+            <label for="lengthSlider">Length: <span id="lengthValue">12</span></label>
+            <input type="range" id="lengthSlider" min="10" max="50" value="12">
+        </div>
+
+        <button id="generateBtn">Generate Password</button>
+
+        <div class="password-container">
+            <input type="text" id="passwordBox" readonly>
+            <p id="copyText">Click to copy</p>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
