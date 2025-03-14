@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Poppins';
-    src: url('Poppins-Regular.ttf') format('truetype');
+    src: url('poppins/poppins/poppins-latin-400-normal.woff2') format('woff2');
 }
 
 body {
@@ -80,6 +80,7 @@ input[type="range"]::-moz-range-thumb {
 }
 
 button {
+    font-family: 'Poppins', sans-serif;
     background-color: #81A1C1;
     border: none;
     color: white;
@@ -89,7 +90,7 @@ button {
     margin-top: 10px;
     border-radius: 8px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 button:hover {
